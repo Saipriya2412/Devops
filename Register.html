@@ -1,0 +1,27 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Registration Form</title>
+
+        </head>
+        <body>
+            <form id="Formsubmit">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name">
+                 <label for="email">Email:</label>
+                <input type="text" id="email">
+                 <label for="tel">Phone Number:</label>
+                <input type="text" id="tel">
+                <button onclick="Submit">Submit</button>
+                
+            </form>
+            <script>
+                let Formsubmit=document.getElementById("Formsubmit");
+                let Submit=document.getElementById("Submit");
+                Submit.onclick=function()
+                {
+                    console.log("Registration Successful");
+                }
+            </script>
+        </body>
+    </html>
